@@ -72,35 +72,21 @@ def create_image_with_text(text, image_path, output_path):
 
     # 板入数
     description_font = ImageFont.truetype("meiryo.ttc", 40)  # テキストのフォントサイズを調整
-    description_position = (expanded_width -200 , 100)
+    description_position = (expanded_width -140 , 100)
     draw.text(description_position, "板入数", font=description_font, fill="black")
 
     # 11文字以降、右から5文字目までを表示する
     description_font = ImageFont.truetype("meiryo.ttc", 32)  # テキストのフォントサイズを調整
     description_position = (10,170)
-    draw.text(description_position, text[second_space_index+1:], font=description_font, fill="black")
+    third_space_index = text.find(' ', second_space_index + 1)
+    draw.text(description_position, text[second_space_index+1:third_space_index], font=description_font, fill="black")
 
     # 11桁以降を品番の下に右揃えで配置
     description_font = ImageFont.truetype("meiryo.ttc", 32)  # テキストのフォントサイズを調整
-    description_position = (expanded_width-200 , 170)
-    extracted_text = text[-4:]  # 右から4文字を抽出
+    description_position = (expanded_width-130 , 170)
+    # extracted_text = text[-4:]  # 右から4文字を抽出
+    extracted_text = text.rstrip().split()[-1]
     draw.text(description_position, extracted_text, font=description_font, fill="black")
-
-    '''
-    # 11桁以降を品番の下に右揃えで配置
-    if text.index(" ", second_space_index + 1):
-        third_space_index = text.index(" ", second_space_index + 1)
-        description_font = ImageFont.truetype("meiryo.ttc", 32)  # テキストのフォントサイズを調整
-        description_position = (10 , 170)
-        draw.text(description_position, text[second_space_index+1:third_space_index], font=description_font, fill="black")
-
-    if text.index(" ", third_space_index + 1):
-        fourth_space_index = text.index(" ", third_space_index + 1)
-        description_font = ImageFont.truetype("meiryo.ttc", 32)  # テキストのフォントサイズを調整
-        description_position = (expanded_width -250 , 170)
-        draw.text(description_position, text[third_space_index+1:fourth_space_index], font=description_font, fill="black")
-    '''
-
 
     # 画像を保存する
     expanded_image.save(output_path)
@@ -172,16 +158,17 @@ def show_matching_products(matching_products, qr_directory, main_window):
         if selected_index:
             selected_product = matching_products[selected_index[0]]
             print(selected_product, "is selected!!! & will generate")
-            generate_qr_code(selected_product, qr_directory)
+            qr_output_filename = generate_qr_code(selected_product, qr_directory)
 
             qr_directory_path = os.path.join(os.getcwd(), qr_directory)
-            qr_filename = f"qr_{selected_product}.png"
-            qr_filepath = os.path.join(qr_directory_path, qr_filename)
+            # qr_filename = f"qr_{selected_product}.png"
+            qr_filepath = os.path.join(qr_directory_path, qr_output_filename)
 
-            first_five_digits = selected_product[:5]
-            qr_output_filename = f"qr_{first_five_digits}.png"
+            # first_five_digits = selected_product[:5]
+            # qr_output_filename = f"qr_{first_five_digits}.png"
+            # output_path = create_daily_folder() + "\\" + qr_output_filename
             output_path = create_daily_folder() + "\\" + qr_output_filename
-            print("[Debug: ]",output_path)
+            print("[Debug: output_path]",output_path)
             print("[debug]: create image with text")
             create_image_with_text(selected_product, qr_filepath, output_path)
 
@@ -208,7 +195,7 @@ def show_matching_products(matching_products, qr_directory, main_window):
 
     window.mainloop()
 
-def generate_qr_code(qr_text, qr_directory):
+def generate_qr_code(selected_text, qr_directory):
     """
     テキストを使用してQRコードを生成して保存する関数
 
@@ -226,6 +213,13 @@ def generate_qr_code(qr_text, qr_directory):
     if not os.path.exists(qr_directory_path):
         os.makedirs(qr_directory_path)
 
+    today = datetime.date.today()
+    date_text = today.strftime("%Y%m%d")
+
+    # コードのみ抽出するとき
+    # first_space_index = selected_text.index(" ")
+    qr_text = date_text+selected_text
+
     # QRコードを生成
     qr = qrcode.QRCode(
         version=1,
@@ -242,14 +236,16 @@ def generate_qr_code(qr_text, qr_directory):
     # QRコードのファイル名を作成
     qr_filename = f"qr_{qr_text}.png"
 
-    print("[debug:]",qr_filename)
-    print("[debug:]",qr_text)
+    print("[debug:qr_filename]",qr_filename)
+    print("[debug:qr_text]",qr_text)
 
     # QRコードを保存
     qr_filepath = os.path.join(qr_directory_path, qr_filename)
     qr_image.save(qr_filepath)
 
     print("[debug:]: qr_image is saved.........",qr_filepath)
+
+    return qr_filename
 
 def main():
     file_path = "data.xlsx"
