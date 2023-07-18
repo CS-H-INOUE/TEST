@@ -49,19 +49,44 @@ def func1():
 
 def func2(n):
     pyautogui.sleep(5)
-    pyautogui.keyDown('alt')
-    pyautogui.press('tab')
-    pyautogui.keyUp('alt')
+    # pyautogui.keyDown('alt')
+    # pyautogui.press('tab')
+    # pyautogui.keyUp('alt')
 
-    print("[debug]alt+tab pressed...")
+    # print("[debug]alt+tab pressed...")
 
     pyautogui.sleep(1)
     pyautogui.click(x=40, y=375)
 
-    pyautogui.sleep(2)
-    for i in range(10):
-        p
+    pyautogui.sleep(1)
+    for i in range(2):
+        pyautogui.press('tab')
+    pyautogui.press('space')
+    for i in range(5):
+        pyautogui.press('down')
+    pyautogui.press('enter')
+    print("get year")
+
+    for i in range(3):
+        pyautogui.press('tab')
+    pyautogui.press('space')
+    pyautogui.press('down')
+    pyautogui.press('enter')
     pyautogui.press('tab')
+    time.sleep(1)
+    # 105:China
+    pyautogui.typewrite('105')
+    time.sleep(1)
+    for i in range(3):
+        pyautogui.press('tab')
+    print("get country")
+
+
+
+
+
+
+
 
     pyautogui.press('delete')
     pyautogui.typewrite(n)

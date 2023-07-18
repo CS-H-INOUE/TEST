@@ -8,6 +8,7 @@ from datetime import date
 import datetime
 from PIL import Image, ImageDraw, ImageFont
 import shutil
+import pyautogui
 
 def create_daily_folder():
     # 実行ファイルの直下パスを取得
@@ -55,7 +56,8 @@ def create_image_with_text(text, image_path, output_path):
     # メイリオフォント（meiryo.ttc）xを指定する
     font = ImageFont.truetype("meiryo.ttc", 28)
 
-    # 左上にtextの左から最初のスペースまでを配置
+    # 左上にtextの
+    # 左から最初のスペースまでを配置
     first_space_index = text.index(" ")
     text_position = (10, 10)
     draw.text(text_position,"コード："+ text[:first_space_index], font=font, fill="black")
@@ -148,11 +150,6 @@ def show_matching_products(matching_products, qr_directory, main_window):
     for product in matching_products:
         listbox.insert(tk.END, product)
 
-    # 一番上のアイテムにフォーカスを移動
-    if matching_products:
-        listbox.selection_set(0)
-        listbox.focus_set()
-
     def select_product():
         selected_index = listbox.curselection()
         if selected_index:
@@ -184,6 +181,27 @@ def show_matching_products(matching_products, qr_directory, main_window):
             window.destroy()  # 検索画面を閉じる
             main_window.deiconify()  # メインウィンドウを再表示
 
+    def handle_key(event):
+        if event.keysym == "Up":
+            if listbox.curselection():
+                current_index = listbox.curselection()[0]
+                if current_index != 0:
+                    listbox.selection_clear(0, tk.END)
+                    listbox.selection_set(current_index - 1)
+                    listbox.yview_scroll(-1, "units")
+        elif event.keysym == "Down":
+            if listbox.curselection():
+                current_index = listbox.curselection()[0]
+                if current_index != listbox.size() - 1:
+                    listbox.selection_clear(0, tk.END)
+                    listbox.selection_set(current_index + 1)
+                    listbox.yview_scroll(1, "units")
+
+    def on_closing():
+        """ウィンドウが閉じられるときの処理を行います。"""
+        if messagebox.askokcancel("終了", "本当に終了しますか？"):
+            window.destroy()
+
     # Enterキーを検索ボタンとしてバインド
     window.bind("<Return>", lambda event: select_product())
 
@@ -192,6 +210,20 @@ def show_matching_products(matching_products, qr_directory, main_window):
 
     select_button = tk.Button(window, text="戻る", command=select_cancel, font=bold_font)
     select_button.pack(pady=10)
+
+    # キーボードイベントを処理するためのバインド
+    listbox.bind("<Up>", handle_key)
+    listbox.bind("<Down>", handle_key)
+
+    print("listbox.focus_get()",listbox.focus_get())
+    main_window.focus_force()
+    listbox.select_set(0)  # 一番上のアイテムを選択状態に設定
+    listbox.activate(0)  # リストボックスをアクティブ化
+    listbox.focus_set()  # リストボックスにキーボードフォーカスを設定
+    print("listbox.focus_set()",listbox.focus_set())
+
+    # ウィンドウの"×"ボタンを押したときの処理を設定
+    window.protocol("WM_DELETE_WINDOW", on_closing)
 
     window.mainloop()
 
@@ -335,7 +367,6 @@ def main():
 
     # GUIのメインループを開始
     window.mainloop()
-
 
 if __name__ == "__main__":
     main()
