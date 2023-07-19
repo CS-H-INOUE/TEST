@@ -13,13 +13,13 @@ import pyautogui
 def create_daily_folder():
     # 実行ファイルの直下パスを取得
     base_path = os.path.dirname(os.path.abspath(__file__))
-
     # 当日の日付を取得
     today = datetime.date.today()
     folder_name = today.strftime("%Y%m%d")
 
+    # 当日の日付を取得
+    folder_path = os.path.join(os.getcwd(), folder_name)
     # 当日の日付フォルダが存在しない場合、作成する
-    folder_path = os.path.join(base_path, folder_name)
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
         print(f"Created folder: {folder_path}")
@@ -280,13 +280,6 @@ def generate_qr_code(selected_text, qr_directory):
     return qr_filename
 
 def main():
-    file_path = "data.xlsx"
-    # ファイルが存在しない場合のみ作成
-    if not os.path.isfile(file_path):
-        # 新規に空のExcelファイルを作成
-        workbook = openpyxl.Workbook()
-        workbook.save(file_path)
-
     # エクセルファイルのパスとシート名を指定
     excel_file = 'codedata.xlsx'
     sheet_name = 'Sheet1'
