@@ -13,7 +13,7 @@ import openpyxl as px
 from openpyxl.utils import column_index_from_string
 import sys
 
-data = ['293212000', '293213000', '', ..., '']
+data = ['293212000', '293213000']
 
 # 一括削除関数
 def remove_glob(pathname, recursive=True):
@@ -26,14 +26,17 @@ def dldata():
     # 適宜データ用意し、同様に処理
     for index, item in enumerate(data):
         print(index, item)
-        print("Call func2")
-        func2(item,data)
+        print("Call func1")
+        if index == 0:
+            func1(item,data)
+        elif index == 1:
+            func2(item,data)
 
     # DL OPEN
     pyautogui.sleep(5)
     pyautogui.click(x=100, y=1050)
 
-def output(data):
+def output(data,i):
     print("[debug: ]",data)
 
     # 
@@ -41,57 +44,32 @@ def output(data):
     # Output -> CSV
     # 
     # 
-    time.sleep(6)
+    time.sleep(5)
     pyautogui.click(x=40, y=420)
-    for i in range(2):
+    for i in range(1):
         pyautogui.press('tab')
+    time.sleep(1)
     pyautogui.press('enter')
     print("DL......................")
-    time.sleep(6)
+    time.sleep(1)
 
-    pyautogui.keyDown('shift')
-    pyautogui.press('tab')
-    pyautogui.keyUp('shift')
+    if i == 1:
+        pyautogui.keyDown('shift')
+        for i in range(2):
+            pyautogui.press('tab')
+        pyautogui.keyUp('shift')
     pyautogui.press('enter')
-    print("再検索")
+    print("-------------------再検索-------------------")
 
-    func2(data[1],data)
-
-
-    time.sleep(6)
-    sys.exit(0)
-
-# func1: Periodを選択して検索し、CSVをダウンロードする
-def func1():
-    # Period(choose latest year)
-    pyautogui.sleep(1)
-    for i in range(3):
-        pyautogui.press('tab')
-
-    for i in range(5):
-        pyautogui.press('up')
-
-    # Search
-    pyautogui.keyDown('shift')
-    for i in range(5):
-        pyautogui.press('tab')
-    pyautogui.keyUp('shift')
-
-    pyautogui.press('enter')
-
-    # CSV DL
-    pyautogui.sleep(3)
-    # モニタにより調整（本当はもう少しスマートに操作させたい）
-    pyautogui.click(x=70, y=460)
-
-# func2: 特定の国コードを指定して検索し、CSVをダウンロードする
-def func2(n,data):
+# func1: 特定の国コードを指定して検索し、CSVをダウンロードする
+def func1(n,data):
 
     # 
     # 
     # SearchPage(https://www.customs.go.jp/toukei/srch/index.htm?M=77&P=...)
     # 
     # 
+
     pyautogui.sleep(6)
     # pyautogui.click(x=40, y=375)
     pyautogui.sleep(1)
@@ -119,7 +97,7 @@ def func2(n,data):
     time.sleep(1)
     # 105:China
     pyautogui.typewrite('105')
-    time.sleep(1)
+    # time.sleep(1)
     for i in range(3):
         pyautogui.press('tab')
     print("get country")
@@ -129,18 +107,28 @@ def func2(n,data):
     pyautogui.press('enter')
     pyautogui.press('tab')
     pyautogui.typewrite(n)
+    # time.sleep(1)
+    pyautogui.press('enter')
 
-    time.sleep(1)
-    pyautogui.keyDown('shift')
-    for i in range(12):
+    print("TestFinished")
+    i=1
+    output(data,i)
+
+def func2(n,data):
+    time.sleep(4)
+    print("Select code...........")
+    for i in range(10):
         pyautogui.press('tab')
-    pyautogui.keyUp('shift')
-
-    time.sleep(1)
+    # time.sleep(1)
+    for i in range(12):
+        pyautogui.press('backspace')
+    # time.sleep(1)
+    pyautogui.typewrite(n)
     pyautogui.press('enter')
 
     print("goto OutputPage")
-    output(data)
+    i=2
+    output(data,i)
 
 # func3: 国コードと品目コードを指定して検索し、CSVをダウンロードする
 def func3(country_num, n):
@@ -203,7 +191,6 @@ def func4(n):
     pyautogui.sleep(3)
     pyautogui.click(x=70, y=460)
 
-
 # ダウンロード関数
 def exebrowser():
     # run chrome
@@ -214,12 +201,11 @@ def exebrowser():
 
     # dlデータ関数へ
     dldata()
-
     driver.close()
 
 try:
-    p_path = r'C:/Users/H-INOUE/'
-
+    # ホームディレクトリまでのパスを取得
+    p_path = os.path.expanduser("~")
     remove_glob(p_path + 'Downloads/*.zip')
     x, y = pyautogui.position()
 
@@ -237,7 +223,7 @@ try:
     l_1 = list(p.glob('*.zip'))
     re_l = ['fl.csv', 'fa.csv']
 
-    Temp_P = Path(p_path + "DESKTOP/temp_python")
+    Temp_P = Path(p_path + "/DESKTOP/temp_python")
 
     # listの要素数から、zipfile.ZipFileリストをmyzipに格納
     for i in range(len(l_1)):
@@ -250,11 +236,12 @@ try:
     i = 0
 
     # 格納先フォルダの作成
-    NEW_P = Path(p_path + "DESKTOP/temp_python/RENAME(PY_AUTO)/")
+    NEW_P = Path(p_path + "/DESKTOP/temp_python/RENAME(PY_AUTO)/")
     if not os.path.exists(NEW_P):
         os.mkdir(NEW_P)
     else:
         shutil.rmtree(NEW_P)
+        time.sleep(1)
         os.mkdir(NEW_P)
 
     # ファイルのリネーム
