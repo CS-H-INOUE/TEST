@@ -1,0 +1,595 @@
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['qr_2023072011702 702 70x10x16 440.png', 'qr_2023072014050 Ｔ50 50x8x96 700.png', 'qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'qr_2023072016562 562 56x10x195φカートン 570.png', 'qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['qr_2023072011702 702 70x10x16 440.png', 'qr_2023072014050 Ｔ50 50x8x96 700.png', 'qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'qr_2023072016562 562 56x10x195φカートン 570.png', 'qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_qr_2023072011702 702 70x10x16 440.png', 'p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_qr_2023072011702 702 70x10x16 440.png', 'p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_qr_2023072011702 702 70x10x16 440.png', 'p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_qr_2023072011702 702 70x10x16 440.png', 'p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了
+[DEBUG] メイン処理の開始
+[DEBUG] print_and_rename_images 関数の開始
+[DEBUG] フォルダパス: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720
+[DEBUG] ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 画像ファイル一覧: ['p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png', 'p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png']
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072011702 702 70x10x16 440.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072014050 Ｔ50 50x8x96 700.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072015132 S角133 ﾑﾗｲﾄS角133x133x19x449 40.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072016562 562 56x10x195φカートン 570.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072018073 ML73 ジルコン70x12x94 360.png
+[DEBUG] print_image 関数の終了
+[DEBUG] 印刷中の画像: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の開始: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing image: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] **************  Printing Finished..............................................: c:\Users\H-INOUE\Desktop\PythonScripts\Code\QR\InouecodetoQR\20230720\p_p_p_p_p_p_p_p_p_p_p_p_p_qr_2023072019077 シリマS角100 ｼﾘﾏﾅｲﾄＳ角100x100x20x459 50.png
+[DEBUG] print_image 関数の終了
+[DEBUG] print_and_rename_images 関数の終了
+[DEBUG] メイン処理の終了

@@ -1,0 +1,13 @@
+cs_iw2307
+    teams_webhook_url = "https://chubusunsho.webhook.office.com/webhookb2/ac7b5ae5-fd1c-4264-a1fa-6b1d7bb7b38e@e60fb0e2-e4db-4ea3-a60f-888216fb15cd/IncomingWebhook/5b3fb26cfe0b4ac0a07ef6c041330892/d5dbd0cb-710e-44bd-8d17-4b3be9317246"
+
+Announce_InoueManage
+https://chubusunsho.webhook.office.com/webhookb2/bc534cb4-a282-41bc-a9e8-3f30791f72ea@e60fb0e2-e4db-4ea3-a60f-888216fb15cd/IncomingWebhook/cf2d3b99513e4876bd0b7a55eecd87cc/d5dbd0cb-710e-44bd-8d17-4b3be9317246
+
+
+Azureより
+https://portal.azure.com/
+
+アプリケーションクライアントID
+f7677466-ef83-4a1c-a084-0c77891c052b
+
